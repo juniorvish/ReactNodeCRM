@@ -1,0 +1,31 @@
+{
+  "name": "ReactNodeCRM",
+  "version": "1.0.0",
+  "description": "A CRM web application with a frontend in React and a dashboard with 20 elements of CRM like sales, revenue etc, all drag and drop, connected in the backend with a Node.js server.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node src/index.ts",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juniorvish/ReactNodeCRM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "body-parser": "^1.19.0",
+    "mongoose": "^5.12.3",
+    "typescript": "^4.2.4",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "@types/express": "^4.17.11",
+    "@types/mongoose": "^5.10.5",
+    "@types/cors": "^2.8.10",
+    "@types/body-parser": "^1.19.0"
+  }
+}
